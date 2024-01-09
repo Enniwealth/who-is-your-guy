@@ -29,7 +29,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
                             : 'text-primary-white'
                         }`}
           >
-            In the Weeds
+            Spencer
           </div>
         )}
       </div>
@@ -41,7 +41,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
       <div className='flex w-1/2 flex-col gap-2 self-start'>
         <img
           loading='lazy'
-          src={behindBuildingImg}
+          src={tiwaImg}
           className={`aspect-square w-full self-stretch overflow-hidden rounded-[50%] object-cover object-center
                       ${
                         answer === Answer.BehindTheBuilding ? '' : 'opacity-40'
@@ -62,7 +62,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
                             : 'text-primary-white'
                         }`}
           >
-            Behind the Building
+            Tiwa
           </div>
         )}
       </div>
