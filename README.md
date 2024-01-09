@@ -1,11 +1,12 @@
-# Where's Alex private multiparty game on Aleo 
-Hide Alex and challenge a friend to find Alex -- winner gets the pot!
 
-Alex's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
+
+## Who's Your Guy? - Aleo Blockchain Edition
+Introduction
+Welcome to "Who's Your Guy?" - an innovative social guessing game deployed using the Aleo Blockchain. Inspired by the puzzle gaming platform's "wheres_alex?", this game combines the excitement of social interactions with the security and transparency of blockchain technology. This README file provides essential information on the game, guiding you through the installation process and offering an overview of the game's features.
+
+Your guy's name is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
 
 Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs under the hood!
-
-### Where's Alex Leo Program Docs: [link](https://github.com/puzzlehq/wheres_alex/tree/main/program)
  
 ### Puzzle SDK Docs: [link](https://docs.puzzle.online/guides/getting_started/)
 ### Puzzle Devtools Site: [link](https://dev.puzzle.online/)
@@ -14,62 +15,40 @@ Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs und
 ### Puzzle Wallet iOS Download [link](https://testflight.apple.com/join/bikon7Nj)
 
 
-[<img src="https://github.com/puzzlehq/serengeti/assets/39972641/9650a6b8-5680-4a53-b6c6-608b8809d38e">](https://wheresalex.puzzle.online/)
-
-
-# About Where's Alex?
-Where's Alex? is a fun experiment that aims to be a fun 1v1 game to showcase how to have a completely private multiparty game on Aleo! This technical overview reviews the issues with multiparty privacy and how this is solved using programmable private multisigs and incentives!
+# About Who's your guy?
+Who is your guy? is a fun experiment that aims to be a fun 1v1 game to showcase how to have a completely private multiparty game on Aleo! This technical overview reviews the issues with multiparty privacy and how this is solved using programmable private multisigs and incentives!
 
 <br /> 
 
-## What is the "Where's Alex?" game?
-Hide alex in a secret location and wager another person on Aleo to guess where you hid Alex. If they guess wrong, then you win the prize pot between you both! 
-
+## What is the " Who Is Your Guy? Game" 
+"Who Is Your Guy?" brings a fresh approach to social gaming. Picture this: hide a mystery person in a secret location within the Aleo Blockchain and challenge your friends to guess who it is. If they guess right, the prize pot is theirs; if not, you win the rewards. This game is not just about guessing; it's about strategy, deduction, and the unpredictable fun that comes with it.
  <br />
 
 ## So what's the point of the game?
 Have fun with other members of the Aleo community, rack up some wins and rack up some puzzle pieces! 
 
-<br />
-
-The puzzle pieces don't mean anything and can be minted if you are running low -- they are just for fun to experiment with Leo token standards on what's necessary for programmbale private multisigs.
-
- <br />
-
 ## How does the game work?
 The FE for the game utilizes key multisig features using the Puzzle Wallet and Puzzle SDK described below. <br /> <br />
 The game is split into 3 Leo Programs described below:
-1. Puzzle Pieces token program (with _n_ of _n_ programmable multisig functions)
+1. my_puzzle_pieces token program (with _n_ of _n_ programmable multisig functions)
 2. Multiparty PVP utils program
-3. Where's Alex program
-
-<br /> 
-
-If you're interested in building your own multiparty game on Aleo, fork this repo and give it a shot! 
-
-# How to play Where's Alex
-1. Starting a new game (challenger)
-- mint Puzzle Pieces if you don't have already
-- challenge another Aleo address
-- hide alex in either the weeds or the bushes
-- set your wager amount to win if your opponent guesses wrong!
+3. Who's your guy program
 
 <br /> 
 
 2. Accepting a new game (opponent)
 - mint puzzle pieces if you don't have already
 - match wager from the challenger
-- guess if alex is hiding in the weeds or the bushes
 - accept the game and lock in the wagers to win if you guess correct!
 
 <br /> 
 
 3. Finishing a game (challenger)
 - Reveal your answer
-- Finish the geam and payout the wagers to you if the opponent guessed wrong or the opponent if they guessed right!
+- Finish the game and payout the wagers to you if the opponent guessed wrong or the opponent if they guessed right!
 
 
-# How Where's Alex showcases how to solve issues in multiparty privacy
+# How Who's your guy showcases how to solve issues in multiparty privacy
 
 ## Defining Multiparty Privacy
 Multiparty privacy is a broad category and can be split into multiple categories based on use cases like:
@@ -178,39 +157,12 @@ Below we'll walk through the following:
 1. How the Where's Alex? game works at a high level with Leo programs, Puzzle Wallet, and Puzzle SDK
 2. How the Where's Alex? Leo programs work in depth
 
+License
+This game is released under the MIT License.
 
-## High level overview of Where's Alex Leo program on Aleo
+Acknowledgments
+Special thanks to the puzzle gaming platform for inspiring this project and to the Aleo Blockchain community for their support
 
-<br />
+# Walking through the Who is your guy Leo programs
 
-<img width="792" alt="image" src="https://github.com/puzzlehq/serengeti/assets/39972641/b5c0f35c-a91f-4b9d-a233-3191ddbc8265">
-
-
-NOTE: Different function executions require different keys (player 1, player 2, multisig keys). For testing purposes, you can run the below to switch execution keys.
-
-<br /><br />
-
-We also have a `test.sh` script [here](./wheres_alex_vXXX/test.sh) that runs through all the flows.
-
-```
-echo "
-NETWORK=testnet3
-PRIVATE_KEY={MS_PK || P1_PK | P2_PK}
-" > .env
-```
-
-<br />
-
-## High level overview of Where's Alex with the Puzzle Wallet and Puzzle SDK
-
-<br />
-
-<img width="757" alt="image" src="https://github.com/puzzlehq/serengeti/assets/39972641/74b3a692-3b80-4c40-90b6-44307d9a4c1e">
-
-More information on the Puzzle Wallet and Puzzle SDK can be found [here](https://docs.puzzle.online/)
-
-<br />
-
-# Walking through the Where's Alex Leo programs
-
-Repo [here](https://github.com/puzzlehq/wheres_alex/tree/main/program)
+Repo [here](https://github.com/Enniwealth/who-is-your-guy/tree/main)
