@@ -14,7 +14,7 @@ Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs und
 
 
 # About Who's your guy?
-Where's Alex? is a fun experiment that aims to be a fun 1v1 game to showcase how to have a completely private multiparty game on Aleo! This technical overview reviews the issues with multiparty privacy and how this is solved using programmable private multisigs and incentives!
+Who is your guy? is a fun experiment that aims to be a fun 1v1 game to showcase how to have a completely private multiparty game on Aleo! This technical overview reviews the issues with multiparty privacy and how this is solved using programmable private multisigs and incentives!
 
 <br /> 
 
