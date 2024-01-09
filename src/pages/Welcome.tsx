@@ -1,6 +1,6 @@
 import { useConnect, useAccount } from '@puzzlehq/sdk';
 import rightImageSrc from '../assets/logo.png';
-import leftImageSrc from '../assets/who your guy.jpg';
+import leftImageSrc from '../assets/who_your_guy.jpeg';
 import bottomImageSrc from '../assets/new_guy.png';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
