@@ -1,5 +1,5 @@
-import inWeedsImg from '../assets/in_weeds.jpg';
-import behindBuildingImg from '../assets/behind_building.svg';
+import tiwaImg from '../assets/tiwa.jpg';
+import spyroImg from '../assets/spyro.jpg';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx';
 
 type HideAlexProps = {
@@ -13,14 +13,14 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
     <section className='mt-4 flex max-w-full flex-col gap-4'>
       <div className='flex gap-5'>
         <AlexButton
-          imgSrc={inWeedsImg}
-          text='In the Weeds'
+          imgSrc={tiwaImg}
+          text='tiwa'
           onClick={() => setAnswer(Answer.InTheWeeds)}
           selected={answer ? answer === Answer.InTheWeeds : undefined}
         />
         <AlexButton
-          imgSrc={behindBuildingImg}
-          text='Behind the Building'
+          imgSrc={spyroImg}
+          text='spyro'
           onClick={() => setAnswer(Answer.BehindTheBuilding)}
           selected={answer ? answer === Answer.BehindTheBuilding : undefined}
         />

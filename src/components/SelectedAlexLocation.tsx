@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import behindBuildingImg from '../assets/behind_building.svg';
-import inWeedsImg from '../assets/in_weeds.jpg';
+import tiwaImg from '../assets/tiwa.jpg';
+import spyroImg from '../assets/spyro.jpg';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx.js';
 
 type SelectedAlexLocationProps = {
@@ -14,7 +14,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
       <div className='flex w-1/2 flex-col gap-2 self-start'>
         <img
           loading='lazy'
-          src={inWeedsImg}
+          src={spyroImg}
           className={`aspect-square w-full self-stretch overflow-hidden rounded-[50%] object-cover object-center
                       ${answer === Answer.InTheWeeds ? '' : 'opacity-40'}`}
           alt={Answer.InTheWeeds}
