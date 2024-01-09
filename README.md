@@ -4,7 +4,7 @@
 Introduction
 Welcome to "Who's Your Guy?" - an innovative social guessing game deployed using the Aleo Blockchain. Inspired by the puzzle gaming platform's "wheres_alex?", this game combines the excitement of social interactions with the security and transparency of blockchain technology. This README file provides essential information on the game, guiding you through the installation process and offering an overview of the game's features.
 
-Your guy's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
+Your guy's name is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
 
 Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs under the hood!
  
