@@ -28,7 +28,7 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
       <p className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
         {((): string => {
           if (answer === undefined && hiding) {
-            return 'Choose who's your guy';
+            return "Choose who's your guy";
           } else if (hiding) {
             return `You chose ${answer} as your guy`;
           } else {
