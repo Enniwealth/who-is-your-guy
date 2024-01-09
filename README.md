@@ -1,6 +1,8 @@
-Who Is Your Guy? - Aleo Blockchain Edition
+
+
+## Who Is Your Guy? - Aleo Blockchain Edition
 Introduction
-Welcome to "Who Is Your Guy?" - an innovative social guessing game deployed using the Aleo Blockchain. Inspired by the puzzle gaming platform's "wheres_alex?", this game combines the excitement of social interactions with the security and transparency of blockchain technology. This README file provides essential information on the game, guiding you through the installation process and offering an overview of the game's features.
+Welcome to "Who's Your Guy?" - an innovative social guessing game deployed using the Aleo Blockchain. Inspired by the puzzle gaming platform's "wheres_alex?", this game combines the excitement of social interactions with the security and transparency of blockchain technology. This README file provides essential information on the game, guiding you through the installation process and offering an overview of the game's features.
 
 Your guy's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
 
@@ -18,7 +20,7 @@ Who is your guy? is a fun experiment that aims to be a fun 1v1 game to showcase 
 
 <br /> 
 
-## What is the " Who Is Your Guy?" 
+## What is the " Who Is Your Guy? Game" 
 "Who Is Your Guy?" brings a fresh approach to social gaming. Picture this: hide a mystery person in a secret location within the Aleo Blockchain and challenge your friends to guess who it is. If they guess right, the prize pot is theirs; if not, you win the rewards. This game is not just about guessing; it's about strategy, deduction, and the unpredictable fun that comes with it.
  <br />
 
